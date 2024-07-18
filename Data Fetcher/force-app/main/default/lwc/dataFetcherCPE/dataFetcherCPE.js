@@ -23,7 +23,7 @@ const FLOW_EVENT_TYPE = {
     CHANGE: 'configuration_editor_input_value_changed'
 }
 
-const VALIDATEABLE_INPUTS = ['c-data-fetcher-c-p-e-combobox', 'c-data-fetcher-object-picker'];
+const VALIDATEABLE_INPUTS = []; //['c-data-fetcher-c-p-e-combobox', 'c-data-fetcher-object-picker'];
 
 export default class dataFectcherCPE extends LightningElement {
     @api automaticOutputVariables;
