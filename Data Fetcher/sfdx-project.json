@@ -9,10 +9,9 @@
             "ancestorVersion": "HIGHEST"
         }
     ],
-    "name": "Data Fetcher Salesforce Labs",
-    "namespace": "joshdaymentlabs",
+    "name": "Data Fetcher Salesforce Labs - Harpal Clinic versionNumber",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "56.0",
+    "sourceApiVersion": "61.0",
     "packageAliases": {
         "Data Fetcher": "0HoDm000000fxTYKAY",
         "Data Fetcher@0.2.0-1": "04tDm000000518kIAA"

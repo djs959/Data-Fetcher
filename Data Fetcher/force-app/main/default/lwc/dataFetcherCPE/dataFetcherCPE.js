@@ -23,7 +23,7 @@ const FLOW_EVENT_TYPE = {
     CHANGE: 'configuration_editor_input_value_changed'
 }
 
-const VALIDATEABLE_INPUTS = ['joshdaymentlabs-data-fetcher-c-p-e-combobox', 'joshdaymentlabs-data-fetcher-object-picker'];
+const VALIDATEABLE_INPUTS = ['c-data-fetcher-c-p-e-combobox', 'c-data-fetcher-object-picker'];
 
 export default class dataFectcherCPE extends LightningElement {
     @api automaticOutputVariables;
@@ -93,7 +93,7 @@ export default class dataFectcherCPE extends LightningElement {
     renderedCallback() {
         if (!this.rendered) {
             this.rendered = true;
-            for (let flowCombobox of this.template.querySelectorAll('joshdaymentlabs-data_fetcher_c_p_e_combobox')) {
+            for (let flowCombobox of this.template.querySelectorAll('data_fetcher_c_p_e_combobox')) {
                 flowCombobox.builderContext = this.builderContext;
                 flowCombobox.automaticOutputVariables = this.automaticOutputVariables;
             }             
